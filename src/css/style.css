@@ -1,0 +1,167 @@
+* {
+    font-family: 'MedievalSharp', cursive;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    padding: 5px;
+}
+
+.paper {
+    width: 100px;
+    height: 100px;
+}
+
+.rock {
+    width: 100px;
+    height: 100px;
+}
+
+.sword {
+    width: 100px;
+    height: 100px;
+}
+
+#placar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#jogador,
+#computador {
+    position: relative;
+    flex-grow: 1;
+    border-radius: 5px;
+    width: 500px;
+    padding: 20px;
+    color: #fff;
+    max-width: 400px;
+}
+
+#mensagens {
+    background-color: #b2bec3;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 10px;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+#titulo {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 15px;
+}
+
+#jogador {
+    background-color: #ff7675;
+}
+
+#computador {
+    background-color: #74b9ff;
+}
+
+#versus {
+    font-size: 40px;
+    text-align: center;
+    width: 70px;
+}
+
+#jogador-nome,
+#computador-nome {
+    margin: 0;
+    padding: 0;
+}
+
+#jogador-nome {
+    text-align: left;
+}
+
+#jogador-pontos,
+#computador-pontos {
+    position: absolute;
+    top: 8px;
+    font-size: 32px;
+}
+
+#jogador-pontos {
+    right: 20px;
+}
+
+#computador-nome {
+    text-align: right;
+}
+
+ul#jogador-escolha,
+ul#computador-escolha {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul#jogador-escolha li,
+ul#computador-escolha li {
+    display: inline;
+}
+
+ul#jogador-escolha li a,
+ul#computador-escolha li a {
+    opacity: .5;
+}
+
+ul#jogador-escolha li a:hover,
+ul#jogador-escolha li a.selecionado,
+ul#computador-escolha li a.selecionado {
+    opacity: 1;
+}
+
+.resetDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resetButton {
+    padding: 17px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(255, 56, 86);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all .3s ease;
+    box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+}
+
+.resetButton:hover {
+    box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+}
+
+.resetButton:active {
+    background-color: rgb(255, 56, 86);
+    box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
