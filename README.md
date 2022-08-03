@@ -1,6 +1,6 @@
 # Rock Paper Scissors Game
 
-An medieval version of Rock Paper Scissors game versus the machine.
+A medieval version of Rock Paper Scissors game versus the machine.
 
 It was done using HTML, CSS and JS. 
 
